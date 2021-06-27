@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="Test">
+
+<!--biến global  -->
+  <parameter name ="url" value ="https://demo.nopcommerce.com/"/>
+  
+  <test name="Run on firefox">
+  biến cục bộ 
+  <parameter name ="browser" value ="firefox"/>
     <classes>
-      <class name="com.nopcommerce.user.User_02_Register_Login_Page_Object_Pattern"/>
-    
+      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test
+  
+  <test name="Run on chrome">
+  <parameter name ="browser" value ="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
+    </classes>
+  </test> Test
+  
+  <test name="Run on edge ">
+  <parameter name ="browser" value ="edge"/>
+    <classes>
+      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
+    </classes>
+  </test> Test
+  
+  <test name="Run on coccoc ">
+  <parameter name ="browser" value ="coccoc"/>
+    <classes>
+      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
+    </classes>
+  </test> Test
+  
+  
+  
 </suite> <!-- Suite -->

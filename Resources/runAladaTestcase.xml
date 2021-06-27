@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Alada" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.alada.login.User_03_Login_Page_Object_Pattern"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

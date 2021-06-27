@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Alada]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.alada.login.User_03_Login_Page_Object_Pattern">
+        <methods>
+          <include name="TC_03_Login_With_Email_Not_Register"/>
+          <include name="afterClass"/>
+          <include name="TC_02_Login_With_Invalid_Emali"/>
+          <include name="TC_01_Login_With_Empty_Data"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.alada.login.User_03_Login_Page_Object_Pattern -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Alada] -->
