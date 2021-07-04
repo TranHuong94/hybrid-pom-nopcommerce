@@ -5,14 +5,14 @@
   <parameter name ="url" value ="https://demo.nopcommerce.com/"/>
   
   <test name="Run on firefox">
-  biến cục bộ 
+ <!--  biến cục bộ  -->
   <parameter name ="browser" value ="firefox"/>
     <classes>
-      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
+      <class name="com.nopcommerce.user.User_03_Register_Login_Page_Object_Pattern3"/>
     </classes>
-  </test> Test
+  </test> 
   
-  <test name="Run on chrome">
+ <!--  <test name="Run on chrome">
   <parameter name ="browser" value ="chrome"/>
     <classes>
       <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
@@ -31,8 +31,8 @@
     <classes>
       <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser"/>
     </classes>
-  </test> Test
+  </test> Test -->
   
   
   
-</suite> <!-- Suite -->
+</suite> 

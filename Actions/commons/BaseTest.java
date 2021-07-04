@@ -41,7 +41,7 @@ public class BaseTest {
 			break;
 
 		case CHROME:
-			//sử dụng thư viện không phải downlaod thủ công
+			//sử dụng thư viện không phải download thủ công
 			WebDriverManager.chromedriver().setup();
 			//System.setProperty("webdriver.chrome.driver", projectLocation + ".\\browserDrivers\\chromedriver.exe");
 			driver = new ChromeDriver();

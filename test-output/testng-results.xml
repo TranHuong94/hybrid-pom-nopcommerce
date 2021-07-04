@@ -1,166 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="142081" started-at="2021-06-27T12:31:13Z" finished-at="2021-06-27T12:33:36Z">
+  <suite name="Default suite" duration-ms="125" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
     <groups>
     </groups>
-    <test name="Run on firefox" duration-ms="28957" started-at="2021-06-27T12:31:13Z" finished-at="2021-06-27T12:31:42Z">
+    <test name="Default test" duration-ms="125" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
       <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@675d3402]" name="beforeClass" is-config="true" duration-ms="12269" started-at="2021-06-27T12:31:14Z" finished-at="2021-06-27T12:31:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.nopcommerce.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_Register()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@675d3402]" name="TC_01_Register" duration-ms="9181" started-at="2021-06-27T12:31:26Z" finished-at="2021-06-27T12:31:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01_Register -->
-        <test-method status="PASS" signature="TC_02_Login()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@675d3402]" name="TC_02_Login" duration-ms="2411" started-at="2021-06-27T12:31:35Z" finished-at="2021-06-27T12:31:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_Login -->
-        <test-method status="PASS" signature="TC_03_Verify()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@675d3402]" name="TC_03_Verify" duration-ms="3289" started-at="2021-06-27T12:31:37Z" finished-at="2021-06-27T12:31:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03_Verify -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@675d3402]" name="afterClass" is-config="true" duration-ms="1745" started-at="2021-06-27T12:31:41Z" finished-at="2021-06-27T12:31:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser -->
-    </test> <!-- Run on firefox -->
-    <test name="Run on chrome" duration-ms="23153" started-at="2021-06-27T12:31:42Z" finished-at="2021-06-27T12:32:06Z">
-      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@ae45eb6]" name="beforeClass" is-config="true" duration-ms="4463" started-at="2021-06-27T12:31:42Z" finished-at="2021-06-27T12:31:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.nopcommerce.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_Register()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@ae45eb6]" name="TC_01_Register" duration-ms="9741" started-at="2021-06-27T12:31:47Z" finished-at="2021-06-27T12:31:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01_Register -->
-        <test-method status="PASS" signature="TC_02_Login()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@ae45eb6]" name="TC_02_Login" duration-ms="3385" started-at="2021-06-27T12:31:57Z" finished-at="2021-06-27T12:32:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_Login -->
-        <test-method status="PASS" signature="TC_03_Verify()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@ae45eb6]" name="TC_03_Verify" duration-ms="4614" started-at="2021-06-27T12:32:00Z" finished-at="2021-06-27T12:32:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03_Verify -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@ae45eb6]" name="afterClass" is-config="true" duration-ms="935" started-at="2021-06-27T12:32:05Z" finished-at="2021-06-27T12:32:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser -->
-    </test> <!-- Run on chrome -->
-    <test name="Run on edge " duration-ms="26882" started-at="2021-06-27T12:32:06Z" finished-at="2021-06-27T12:32:33Z">
-      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@77caeb3e]" name="beforeClass" is-config="true" duration-ms="5372" started-at="2021-06-27T12:32:06Z" finished-at="2021-06-27T12:32:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.nopcommerce.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_Register()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@77caeb3e]" name="TC_01_Register" duration-ms="11200" started-at="2021-06-27T12:32:11Z" finished-at="2021-06-27T12:32:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01_Register -->
-        <test-method status="PASS" signature="TC_02_Login()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@77caeb3e]" name="TC_02_Login" duration-ms="4319" started-at="2021-06-27T12:32:22Z" finished-at="2021-06-27T12:32:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_Login -->
-        <test-method status="PASS" signature="TC_03_Verify()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@77caeb3e]" name="TC_03_Verify" duration-ms="4777" started-at="2021-06-27T12:32:27Z" finished-at="2021-06-27T12:32:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03_Verify -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@77caeb3e]" name="afterClass" is-config="true" duration-ms="1203" started-at="2021-06-27T12:32:31Z" finished-at="2021-06-27T12:32:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser -->
-    </test> <!-- Run on edge  -->
-    <test name="Run on coccoc " duration-ms="63028" started-at="2021-06-27T12:32:33Z" finished-at="2021-06-27T12:33:36Z">
-      <class name="com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@91161c7]" name="beforeClass" is-config="true" duration-ms="7396" started-at="2021-06-27T12:32:33Z" finished-at="2021-06-27T12:32:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[coccoc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.nopcommerce.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_Register()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@91161c7]" name="TC_01_Register" duration-ms="10770" started-at="2021-06-27T12:32:40Z" finished-at="2021-06-27T12:32:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01_Register -->
-        <test-method status="PASS" signature="TC_02_Login()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@91161c7]" name="TC_02_Login" duration-ms="2832" started-at="2021-06-27T12:32:51Z" finished-at="2021-06-27T12:32:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_Login -->
-        <test-method status="FAIL" signature="TC_03_Verify()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@91161c7]" name="TC_03_Verify" duration-ms="40642" started-at="2021-06-27T12:32:54Z" finished-at="2021-06-27T12:33:34Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="FAIL" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@2a5ca609]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='ico-account'] (tried for 30 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@class='ico-account'] (tried for 30 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at commons.BasePage.waitForElementClickable(BasePage.java:367)
-at pageObjects.nopCommerce.HomePageObject.clickToMyAccountLink(HomePageObject.java:28)
-at com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser.TC_03_Verify(User_04_Register_Login_Page_Object_Multiple_Browser.java:96)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -176,46 +41,137 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ico-account']"}
-  (Session info: chrome=89.0.4389.150)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-230DGHF', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.150, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Huong\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: dfdc837e1c96b0996fb62c3f083c3939
-*** Element info: {Using=xpath, value=//a[@class='ico-account']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="TC_01_Register()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@2a5ca609]" name="TC_01_Register" duration-ms="0" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register -->
+        <test-method status="SKIP" signature="TC_02_Login()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@2a5ca609]" name="TC_02_Login" duration-ms="0" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login -->
+        <test-method status="SKIP" signature="TC_03_Verify()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@2a5ca609]" name="TC_03_Verify" duration-ms="0" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\Huong\AppData\Local\Temp\testng-eclipse--1256984540\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Verify -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@91161c7]" name="afterClass" is-config="true" duration-ms="1374" started-at="2021-06-27T12:33:34Z" finished-at="2021-06-27T12:33:36Z">
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser@2a5ca609]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-07-03T13:26:25Z" finished-at="2021-07-03T13:26:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nopcommerce.user.User_04_Register_Login_Page_Object_Multiple_Browser -->
-    </test> <!-- Run on coccoc  -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
